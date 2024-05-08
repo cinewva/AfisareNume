@@ -5,20 +5,19 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        //de aici incep
-        //Initializez obiectul prin care am capabilitatea sa citesc de la tastatura
+        // The code below initializes an object to read input from the keyboard.
         Scanner scanner = new Scanner(System.in);
 
-        //Afisesz un mesaj pentru cererea textului de la tastatura
-        //Se va introduce textul cerut dupa care se apasa tasta Enter
-        System.out.print("Introduceti numele dumneavoastra: ");
+        // Display a message asking for text input from the keyboard.
+        // The text should be entered followed by pressing the Enter key.
+        System.out.print("Enter your name: ");
 
-        //Linia de cod care va citi propriuzis textul de la tastatura
-        //Definesc variable de tip String(sir de caractere) unde se va afisa textul introdus
-        String numelePersoanei = scanner.nextLine();
+        // The line of code that will actually read the text from the keyboard.
+        // Define a variable of type String to store the entered text.
+        String personName = scanner.nextLine();
 
-        //Afisez numele persoanei introdus de la tastatura
-        System.out.println("Numele introdus este: " + numelePersoanei);
+        // Display the name entered by the user.
+        System.out.println("The entered name is: " + personName);
 
 
     }
